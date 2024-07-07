@@ -1,0 +1,7 @@
+C:\Users\samue\Desktop\ConsumoAPI\FirstApi\obj\Debug\net8.0\FirstApi.csproj.AssemblyReference.cache
+C:\Users\samue\Desktop\ConsumoAPI\FirstApi\obj\Debug\net8.0\FirstApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\Desktop\ConsumoAPI\FirstApi\obj\Debug\net8.0\FirstApi.AssemblyInfoInputs.cache
+C:\Users\samue\Desktop\ConsumoAPI\FirstApi\obj\Debug\net8.0\FirstApi.AssemblyInfo.cs
+C:\Users\samue\Desktop\ConsumoAPI\FirstApi\obj\Debug\net8.0\FirstApi.csproj.CoreCompileInputs.cache
+C:\Users\samue\Desktop\ConsumoAPI\FirstApi\obj\Debug\net8.0\FirstApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\samue\Desktop\ConsumoAPI\FirstApi\obj\Debug\net8.0\FirstApi.MvcApplicationPartsAssemblyInfo.cache
