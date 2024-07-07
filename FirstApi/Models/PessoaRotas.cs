@@ -9,9 +9,17 @@ public static class PessoaRotas
 
 	public static void MapPessoaRotas(this webApplication app)
 	{
-		app.MapGet(
-			pattern: "/pesoas", 
-			handler: () => new { Nome = "Criss" }
-		);
+		app.MapGet(pattern: "/pessoas", 
+			handler: () => new { Nome = "Criss" });
+
+		app.MapGet(pattern: "/pessoas/{id}/{nome}",
+			handler: (Guid id, string nome) => Pessoas.Find(match: x:Pessoa => x.Nome == nome));
+
+		app.MapPost(pattern: "pessoas",
+			handler: (Pessoa pessoa) =>
+			{ 
+				Pessoas.Add(pessoa);
+				return pessoa;
+			});
 	};
 }
